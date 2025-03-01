@@ -1,0 +1,8 @@
+name: Display context
+on: woekflow_dispatch
+jobs: 
+  info:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Output Context Information
+        run: echo "${{ toJSON(github) }}"
