@@ -1,5 +1,5 @@
-name: Display context
-on: woekflow_dispatch
+name: Display Context Info
+on: workflow_dispatch
 jobs: 
   info:
     runs-on: ubuntu-latest
